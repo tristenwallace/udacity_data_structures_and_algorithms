@@ -20,3 +20,26 @@ Print a message:
 September 2016.".
 """
 
+total_call_time = {}
+
+for _, call in enumerate(calls):
+    if call[2][6:10] == '2016' and call[2][:2] == '09': 
+        if call[0] not in total_call_time.keys():
+            total_call_time[call[0]] = int(call[3])
+        else:
+            total_call_time[call[0]] += int(call[3])
+        if call[1] not in total_call_time.keys():
+            total_call_time[call[1]] = int(call[3])
+        else:
+            total_call_time[call[1]] += int(call[3])
+
+
+max_num = ''
+max_time = 0
+for key in total_call_time.keys():
+    if total_call_time[key] > max_time:
+        max_time = total_call_time[key]
+        max_num = key
+
+
+print(f"{max_num} spent the longest time, {max_time} seconds, on the phone during September 2016.")
