@@ -20,3 +20,8 @@ Print messages:
 "Last record of calls, <incoming number> calls <answering number> at time <time>, lasting <during> seconds"
 """
 
+text_1 = texts[0]
+call_1 = calls[0]
+
+print(f"First record of texts, {text_1[0]} texts {text_1[1]} at time {text_1[2]}.")
+print(f"Last record of calls, {call_1[0]} texts {call_1[1]} at time {call_1[2]}, lasting {call_1[3]} seconds.")
