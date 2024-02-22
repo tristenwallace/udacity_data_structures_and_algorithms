@@ -53,6 +53,7 @@ for _, call in enumerate(calls):
   receiver = call[1]
   code = ''
   if caller[:5] == '(080)':
+    total_calls += 1
     if receiver[:1] == '(':
       code = receiver[1:receiver.index(')')]
     elif receiver[:1] in ['7', '8', '9']:
@@ -63,7 +64,6 @@ for _, call in enumerate(calls):
     codes.append(code)
   if code == '080':
     bangalore_count += 1
-  total_calls += 1
 
 print("The numbers called by people in Bangalore have codes:")
 for code in sorted(codes):
