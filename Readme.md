@@ -11,6 +11,9 @@ Overview of foundational topics. Review some basic Python concepts, talk about h
 ### 2. Data Structures
 How you store or structure that data in the computer's memory can have a huge impact on what kinds of things you can do with it and how efficiently you can do those things. In this section, we'll explore different data structures, and consider the pros and cons of using different structures when solving different types of problems.
 
+**Projects:**
+- [Show Me The Data Structures](data_structures)
+
 ### 3. Basic Algorithms
 To solve problems, we need to come up with a very specific sequence of steps that will get us from whatever input we start with to the desired output. This kind of clear, highly specific procedure is called an algorithm. In this section, we'll get started with some elementary algorithms, such as binary search and mergesort.
 
