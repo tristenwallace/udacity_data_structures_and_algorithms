@@ -17,5 +17,8 @@ How you store or structure that data in the computer's memory can have a huge im
 ### 3. Basic Algorithms
 To solve problems, we need to come up with a very specific sequence of steps that will get us from whatever input we start with to the desired output. This kind of clear, highly specific procedure is called an algorithm. In this section, we'll get started with some elementary algorithms, such as binary search and mergesort.
 
+**Projects:**
+- [Problems vs. Algorithms](basic_algorithms)
+
 ### 4. Advanced Algorithms
 In this final part, we'll dive into some more advanced topics—including greedy algorithms, graph algorithms, dynamic programming, and linear programming.
